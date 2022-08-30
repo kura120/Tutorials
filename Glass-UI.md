@@ -41,4 +41,4 @@ glass:BindFrame(frameyouwanttoglass, {Transparency = 0.98, BrickColor = BrickCol
 ```
 
 <h1 align="center">Conclusion</h1>
-And that's how you make a glass UI wooooooo, anyways if there's any errors make sure to dm me on Discord: `kura#6311`.
+And that's how you make a glass UI wooooooo, anyways if there's any errors make sure to dm me on Discord: kura#6311.
