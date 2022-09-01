@@ -1,6 +1,6 @@
 <h1 align="center">How To Make Glass UI</h1>
 
-Alright, to start we need to get [the module](https://github.com/kuraise/UI-Tuts/blob/main/glass.lua) and put it inside your main source script like this:
+Alright, to start we need to get [the module](https://raw.githubusercontent.com/kuraise/UI-Tuts/main/scripts/glass.lua) and put it inside your main source script like this:
 
 ![ScreenShot](https://cdn.upload.systems/uploads/TGFvgmUl.png)
 
