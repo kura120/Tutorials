@@ -1,5 +1,7 @@
 <h1 align="center">How To Make Glass UI</h1>
 
+If you need help or are confused you can use [this](https://github.com/kuraise/UI-Tuts/blob/main/rblx-models/glassUI.rbxm) model as help or you can just use it and modify at will.
+
 Alright, to start we need to get [the module](https://raw.githubusercontent.com/kuraise/UI-Tuts/main/scripts/glass.lua) and put it inside your main source script like this:
 
 ![ScreenShot](https://cdn.upload.systems/uploads/TGFvgmUl.png)
