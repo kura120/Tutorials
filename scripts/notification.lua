@@ -1,3 +1,8 @@
+--[[
+THIS IS CODE FROM THE SOURCE: https://github.com/kuraise/UI-Tuts/blob/main/rblx-models/notify.rbxm
+If you want to make a custom  UI on it you will have to edit this.
+]]
+
 -- Variables
 local Notification = {}
 Notification.path = script.Parent.Parent.Notification
