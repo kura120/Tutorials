@@ -103,5 +103,4 @@ function Notification:Send(args)
 	end
 end
 
-shared.RequiredModulesToLoad -= 1
 return Notification
