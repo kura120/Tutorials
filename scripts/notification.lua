@@ -14,9 +14,21 @@ Notification.Config = {
 -- Tween Library
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
+
 local function tweenLib(o: Instance, p, d: TweenInfo, ...)
 	return tween:Create(o, tweeninfo(d, ...), p)
 end
+
+local function convertToJSON(args)
+	local json = "{\n"
+	for i,v in pairs(args) do
+		json = json .. "\"".. v .. "\",\n"
+	end
+	json = json .. "}"
+
+  return json
+end
+
 
 function Notification:Send(args)
 	
@@ -26,6 +38,10 @@ function Notification:Send(args)
 	if type(args["TimeLimit"]) ~= "boolean" then error("Argument #3 Missing") end
 	if type(args["Time"]) ~= "number" then error("Argument #4 Missing") end
 	
+	if Notification.Config.DebugNoti then
+		print(convertToJSON({"HEADER: " .. args["Name"] , "DESCRIPTION: " .. args["Description"], 
+		"TIMElIMIT: " .. tostring(args["TimeLimit"]), "TIME: " .. args["Time"]}))
+	end
 	local old = script.NotifName:Clone()
 	old.Parent = Notification.path
 	
