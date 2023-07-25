@@ -15,4 +15,5 @@ Alright, if you're just stuck on Studio, your limitations are pretty obvious, in
 You can use any of these sites at your will to make logos, icons, custom frames, or making your own designs as a test (in studio it's a lot harder to make your test design)
 I will not teach you how to use these apps because then this tutorial will take so long.
 
-# I WILL FINISH SOON
+<h2>#2: Use Your Imagination</h2>
+just use it and think and play around
